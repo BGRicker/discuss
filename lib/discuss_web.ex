@@ -33,6 +33,7 @@ defmodule DiscussWeb do
 
       import Plug.Conn
       import DiscussWeb.Gettext
+      alias Discuss.Repo
       alias DiscussWeb.Router.Helpers, as: Routes
     end
   end
