@@ -27,3 +27,8 @@ is a representation of what we have in the database
   Discuss.Topic.changeset(struct, params)
   - changeset not only function, but an object #=> Ecto.Changeset
   - params \\ %{} #=> if params are nil, use empty map ( just || ) 
+  - 
+
+forms:
+  <%= form_for @changeset, topic_path(@conn, :create), fn f -> %>
+  - 
